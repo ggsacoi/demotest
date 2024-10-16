@@ -111,4 +111,8 @@ addEventListener("DOMContentLoaded", ()=>{
     if(window.innerWidth > 750) {
         window.location.href = "nodispo.html";
     }
+    const bet = document.getElementById('id');
+    bet.addEventListener('click', () => {
+       window.location.href = 'https://ko-fi.com/makilapetoaz0/goal?g=0';
+    });
 });
