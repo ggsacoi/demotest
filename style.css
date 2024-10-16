@@ -1,0 +1,408 @@
+@media (max-width: 950px) {
+    body {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+        background-color: rgb(39, 37, 37);
+        display: flex;
+        justify-content: center;    
+    }
+
+    .navbar {
+        position: fixed;
+        z-index: 2;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 90px;
+        background-color: rgb(15, 14, 14);
+        flex-direction: column;
+    }
+
+    .navchild {
+        width: 100vw;
+        height: min-content;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .boxresearch {
+        align-content: center;
+        display: flex;
+        width: 70px;
+        flex-direction: row;
+    }
+
+    .trop {
+        
+        display: none;
+    }
+
+    #see:checked ~ .oui {
+        display: none;
+    }
+    
+    #see:checked ~ .non {
+        display: block;
+    }
+    
+    #see:checked ~ .options {
+        position: absolute;
+        left: 0%;
+    }
+    
+    #unsee:checked ~ .oui {
+        display: block;
+    }
+    
+    #unsee:checked ~ .non {
+        display: none;
+    }
+    
+    #unsee:checked ~ .options {
+        position: absolute;
+        left: -100%;
+    }
+
+    #view:checked ~ .research {
+        display: block;
+        position: absolute;
+        margin-top: 7.5px;
+        margin-left: 45px;
+    }
+
+    #quoi {
+        margin: 15px 15px 0 15px;
+    }
+
+    .fa-solid .fa-xmark {
+        color: white;
+    }
+
+    #view:checked ~ #quoi {
+        display: none;
+    }
+    #view:checked ~ #feur {
+        display: block;
+    }
+
+    #feur {
+        padding: 15px;
+        display: none;
+    }
+
+    #unview:checked ~ .fa-solid .fa-magnifying-glass {
+        display: none;
+    }
+    
+    #input-box {
+        background-color: rgb(0, 0, 0);
+        border: none;
+        z-index: 2;
+        border-radius: 15px 0 0 15px;
+        padding-left: 10px;
+        color: white;
+        outline: none; 
+        -webkit-appearance: none;
+        height: 30px;
+    }
+
+    #input-box::-webkit-search-cancel-button {
+        -webkit-appearance: none; /* Hide the default "x" button */
+    }
+
+    #onclick  {
+        border: none;
+        border-left: 1px solid white;
+        background-color: rgb(0, 0, 0);
+        border-radius: 0 15px 15px 0;
+        height: 30px;
+    }
+
+    .research {
+        display: none;
+    }
+    
+    .fa-solid {
+        margin: 0 1vw 0 1vw;
+        color: rgb(255, 255, 255);
+    }
+
+    .fa-user {
+        color: red;
+    }
+
+    .boxuser {
+        margin: 15px 15px 0 15px;
+        width: 2rem;
+        height: 2rem;
+        background-color: gray;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+
+    .boxnav {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      
+    }
+
+    .categorie {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+      
+    }
+
+    .categorie li {
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    padding:0 5px 0 5px;
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+   
+    }
+
+    a {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+
+    .pagination {
+        left: 0;
+        top: 70px;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    .accountnav {
+        top: 25vh;
+        left: 25vw;
+        width: 50vw;
+        height: min-content;
+        background-color: rgb(15, 14, 14);
+        position: fixed;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        z-index: 2;
+    }
+    
+    .boxset {
+        position: sticky;
+        width: 2rem;
+        height: 2rem;
+        background-color: gray;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+        margin-top: 3vh;
+    }
+    
+    .fa-mobile-screen-button {
+        color: red;
+    }
+    
+    .fa-clock {
+        color: red;
+    }
+    
+    
+    .boxsetp {
+        margin: 0 0 5vh 0;
+        padding: 0 15vw 1vh 15vw;
+        border-bottom: 1px solid white;
+    }
+    
+    .box {
+        width: 100vw;
+        flex-direction: column;
+        display: flex;
+        
+    }
+
+    .photo {
+        border-bottom: solid 3px red;
+        display: block;
+        padding: none;
+        margin: none;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .in {
+        width: 100%;
+    }
+
+    .pelicula {
+        border-bottom: solid 3px red;
+        display: block;
+        padding: none;
+        margin: none;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .title {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .title h3{
+        margin: 0;
+        color: white;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 2rem;
+        color: aliceblue;
+    }
+    p {
+        color: white;
+    }
+
+    .nakomona {
+        width: 100vw;
+        flex-direction: row;
+        display: flex;
+
+    }
+
+    .nayebi {
+        width: 50%;
+        height: 150px;
+        flex-direction: row;
+    }
+
+    .keba {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        right: 0;
+        position: relative;
+        justify-content: end;
+    }
+    .sharecontent {
+        position: relative;
+        width: 95%;
+        height: 95%;
+        background-color: gray;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        display: none;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 3px;
+        justify-content: center;
+        z-index: 2;
+    }
+    .likecontent {
+        position: absolute;
+        width: min-content;
+        height: min-content;
+        display: flex;
+        justify-content: end;
+        gap: 5px;
+        top: 49.25px;
+        right: 48px;
+    }
+
+    .likecontent span{
+        position: relative;
+        margin: 0;
+        right: 0; 
+        }
+
+    .likecontent .boxmutu {
+    }
+
+    .sharecontent .boxbatu {
+        background-color: white;
+        margin: 5px;
+    }
+    .sharecontent .boxbatu i {
+        color: black;
+    }
+
+    .kebain {
+        display: flex;
+        flex-direction: column;
+        
+        width: min-content;
+        height: min-content;
+        position: relative;
+    }
+
+    .boxmutu {
+        left: 0;
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        background-color: gray;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 1vw 0 1vw;
+    }
+    #mutu {
+        color: rgb(1, 82, 1);
+    }
+
+    #fmutu {
+        color: skyblue;
+    }
+
+    .mess {
+        display: flex;
+        max-width: 95%;
+        height: max-content;
+        border-radius: 5px;
+        position: relative;
+        left: 0;
+        background-color: gray;
+        margin-top: 2px;
+    }
+    .boxbatu {
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        background-color: gray;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 2vw 2vw 2vw;
+    }
+
+    .hidinput {
+        display: none;
+    }
+
+    #like:checked ~ .fa-heart {
+        color: rgb(255, 0, 0);
+    }
+
+    #save:checked ~ .fa-bookmark {
+        color: rgb(251, 255, 0);
+    }
+}

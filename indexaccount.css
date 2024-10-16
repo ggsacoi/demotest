@@ -1,0 +1,174 @@
+.recadrage {
+    object-position: top;
+}
+
+.contact {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 7px;
+    opacity: 1;
+    min-height: 75vh;
+    position: absolute;
+    top: 90px;
+}
+
+.boxpfp {
+    margin: 15px 15px 0 15px;
+    width: 9rem;
+    height: 9rem;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 4rem;
+}
+
+.title {
+    display: flex;
+    position: relative;
+    color: white;
+}
+.lezebla {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+}
+
+.lesblaz {
+    width: 120px;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+ input {
+    display: block;
+    width: 250px;
+    height: 25px;
+    border: solid 1px black;
+    border-radius: 20, 20;
+    padding: 14;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 1rem;
+    font-weight: 100;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container h3 {
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#envoi {
+    display: none;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px rgb(255, 0, 0);
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.decor {
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    visibility: visible;
+    height: max-content;
+}
+.item {
+    width: 49vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    border: solid 1px red;
+    flex-direction: column;
+    overflow: none;
+}
+.photo {
+    display: flex;
+    height: 70px;
+    width: 50vw;
+    justify-content: center;
+    border-bottom: solid 0.5px red;
+    border-right: solid 0.5px red;
+    opacity: 0.5;
+    max-height: fit-content;
+}
+ h3 {
+    text-align: center;
+    color: white;
+ }
+
+ .text {
+    display: flex;
+    width: 250px;
+    height: 100px;
+    border: solid 1px black;
+ }
+
+ @media (min-width: 951px) {
+    .form-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        gap: 7px;
+        background-color: gray;
+        opacity: 1;
+        padding: 5vw;
+    }
+    .alert {
+        display: flex;
+        position: relative;
+        text-align: center;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 40px;
+        color: white;
+    }
+    .lesblaz {
+        width: 170px;
+        border: solid 1px black;
+    }
+
+    input {
+        display: flex;
+        width: 350px;
+        height: 30px;
+        border: solid 1px black;
+        padding: 0;
+        box-shadow: none;
+        outline: none;
+        margin-bottom: 1rem;
+        font-weight: 100;
+        background-color: white;
+        border-radius: 3px;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+    }
+    
+    p {
+        font-size: larger;
+        font-weight: 700;
+    }
+ }

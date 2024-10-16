@@ -1,0 +1,74 @@
+.device {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.hautdelapage {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    flex-direction: row;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-arrow-left {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+.alldevice {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+ 
+}
+
+.gap-color {
+    color: red;
+}
+
+.boxdevice {
+    width: 2rem;
+    height: 2rem;
+    background-color: gray;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1vw 0 1vw;
+} 
+
+#boxmdr {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+
+}
+
+#mdr {
+    color: red;
+}
+
+.boxofbox {
+    width: 31vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 37, 37);
+    border: solid 1px red;
+}

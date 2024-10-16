@@ -1,0 +1,105 @@
+body {
+    width: 100vw;
+    padding: none;
+    margin: NONE;
+}
+
+.stream {
+    width: 100vw;
+}
+
+video {
+    width: 100%;
+}
+
+.videoname {
+    color: white;
+}
+
+article {
+    width: min-content;
+    overflow: hidden;
+    height: 86px;
+}
+article.active {
+    position: relative;
+    background-color: black;
+    border-radius: 20px;
+    width: 100vw;
+    height:100dvh;
+    overflow: hidden;
+    padding-top: 7px;
+}
+
+.Ucommente {
+    display: flex;
+    flex-direction: row;
+    width: min-content;
+    margin: 14px 0 14px 0;
+}
+.profil {
+    width: 14vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commente {
+    width: 80vw;
+    height: auto;
+    background-color: gray;
+    border-radius: 7px;
+    padding: 4px;
+}
+
+.tosee {
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 0 3px 0;
+    border-top: solid white 1px;
+
+}
+
+.imgcontent {
+    height: 69px;
+    width: 50px;
+}
+
+.toseeimg {
+    display: flex;
+    width: 50px;
+    height: 69px;
+    background-size: cover;
+}
+
+.titlecontent {
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.trashbox {
+    font-size: 2rem;
+    color: gray;
+    justify-content: center;
+    align-content: center;
+}
+.avis {
+    display: flex;
+    flex-direction: row;
+}
+
+.ads {
+    display: flex;
+    flex-direction: row;
+}
+
+.btnads {
+    display: flex;
+    bottom: 0;
+    height:     20px;
+}

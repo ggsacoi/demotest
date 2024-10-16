@@ -1,0 +1,153 @@
+.accountnav {
+    top: 25vh;
+    left: 25vw;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(15, 14, 14);
+    position: fixed;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.boxset {
+    position: sticky;
+    width: 2rem;
+    height: 2rem;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    margin-top: 3vh;
+}
+
+.fa-mobile-screen-button {
+    color: red;
+}
+
+.fa-clock {
+    color: red;
+}
+
+
+.boxsetp {
+    margin: 0 0 5vh 0;
+    padding: 0 15vw 1vh 15vw;
+    border-bottom: 1px solid white;
+}
+/*historichtml*/
+.paginationhistoric {
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#boxclock {
+    margin-top: 60px;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.lastseen {
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 0 3px 0;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+
+}
+
+.imgcontent {
+    height: 70px;
+}
+
+.lastseenimg {
+    display: flex;
+    height: 70px;
+
+}
+
+.titlecontent {
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.trashbox {
+    font-size: 2rem;
+    color: gray;
+    justify-content: center;
+    align-content: center;
+}
+
+.fa-trash-can {
+    color: red;
+}
+/*heartshtml*/
+.paginationheart {
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heartbox {
+    font-size: 2rem;
+    color: red;
+    justify-content: center;
+    align-content: center;
+}
+
+#boxheart {
+    margin: 0;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin-top: 60px;
+}
+
+/*savehtml*/
+.paginationsave {
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-arrow-left {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+}
+
+.heartbox {
+    font-size: 2rem;
+    color: red;
+    justify-content: center;
+    align-content: center;
+}
+
+#boxsave {
+    margin-top: 60px;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+}
