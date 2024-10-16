@@ -94,7 +94,7 @@ addEventListener("DOMContentLoaded", ()=>{
         const form = document.createElement("h3");
         form.className = 'alert';
         formcontainer.appendChild(form);
-        form.textContent = 'this content is not accesible it will be available in final edition';
+        form.textContent = 'this content is not accessible it will be available in final edition';
         const container = document.createElement("button");
         container.id = 'envoi';
         container.textContent = 'bet';
