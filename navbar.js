@@ -79,12 +79,6 @@ addEventListener("DOMContentLoaded", ()=>{
        window.location.href = 'indexaccountset.html';
     });
 
-
- const clock = document.getElementById('his');
-    clock.addEventListener('click', () => {
-       window.location.href = 'indexhistoric.html';
-    });
-
     const movies = document.querySelectorAll('.photo');
     if (movies) {
         movies.forEach(movie => {
