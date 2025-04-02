@@ -103,3 +103,26 @@ article.active {
     bottom: 0;
     height:     20px;
 }
+
+#likenumbers {
+    color: white;
+    font-size: 0.8rem;
+    font-family:sans-serif;
+    margin: 1px;
+}
+.like {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#sharenumbers {
+    color: white;
+    font-size: 0.8rem;
+    font-family:sans-serif;
+    margin: 1px;
+}
+.share {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
